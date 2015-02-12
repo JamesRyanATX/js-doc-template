@@ -1,0 +1,157 @@
+html {
+  font-size: 17px;
+  color: #505050;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  html { 
+    font-size: 13px;
+  }
+}
+
+body {
+  font-family: "Droid Serif", helvetica, arial, serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(251, 96, 66);
+  color: white;
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+a, a:link {
+  color: rgb(251, 96, 66);
+}
+
+a:visited {
+  color: #555
+}
+
+/* nav */
+
+nav {
+  float: left;
+  margin: 3rem;
+  width: 250px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+}
+
+nav ul.tier-1 > li {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+nav ul.tier-2 {
+  font-size: 0.8rem;
+  margin: 0 0 2rem 0;
+}
+
+nav ul.tier-2 li {
+  margin: 0 0 0.5rem 0rem;
+}
+
+nav ul.tier-3 {
+  font-size: 0.8rem;
+  margin: 0 0 1rem 0;
+}
+
+/* article */
+
+article {
+  line-height: 150%;
+  margin: 3rem 3rem 3rem 350px;
+}
+
+article h2 {
+  border-bottom: 1px solid #ccc;
+  color: #888;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+section.examples,
+section.class-properties,
+section.instance-properties,
+section.class-methods,
+section.instance-methods {
+  margin-top: 2rem;
+}
+
+section.example,
+section.class-property,
+section.instance-property,
+section.class-method,
+section.instance-method {
+  margin-bottom: 2rem;
+}
+
+section.extends,
+section.mixins {
+  font-size: 0.85rem;
+}
+
+section.class-method h3,
+section.instance-method h3 {
+  color: rgb(251, 96, 66);
+}
+
+section table {
+  font-size: 0.85rem;
+}
+
+section table th {
+  border-bottom: 1px solid #ddd;
+}
+
+section table th,
+section table td {
+  padding: 0.25rem 1rem 0.25rem 0;
+}
+
+section > code {
+  background-color: #f5f5f5;
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1rem;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
