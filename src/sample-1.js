@@ -25,7 +25,7 @@ SampleObjectA.prop2 = null;
 // -- instance properties
 
 /**
- * @memberof SampleObjectA.prototype
+ * @memberof SampleObjectA
  * @instance
  */
 SampleObjectA.prototype.prop1 = null;
