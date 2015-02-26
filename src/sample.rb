@@ -44,6 +44,7 @@ while j<split_blocks.length do
   puts split_blocks[j][0]
   puts "<p>"
     if splitt_blocks[j][0][1]!=""
+      puts "<p>"
       puts splitt_blocks[j][0][1]
       puts"<p>"
     end
