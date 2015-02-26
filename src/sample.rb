@@ -33,12 +33,20 @@ puts"<body>"
 puts"<h1>Documentation</h1>"
 puts"<p>"
 
+splitt_blocks=split_blocks[1].map do|block|
+  block.split('//')
+end
+
 j=0
 while j<split_blocks.length do
   puts split_blocks[j][1]
   puts "<p>"
   puts split_blocks[j][0]
   puts "<p>"
+    if splitt_blocks[j][0][1]!=""
+      puts splitt_blocks[j][0][1]
+      puts"<p>"
+    end
   j+=1
 end
 
